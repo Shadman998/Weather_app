@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 
 # 1. Title and Description
-st.title("🌤️ Weather Checker")
+st.title("🌤️ Sky Cast: WE Cast the sky onto your Screen")
 st.write("Enter a city name below to get the current weather conditions.")
 
 # 2. Input Widget (Replaces input())
