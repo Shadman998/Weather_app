@@ -1,0 +1,19 @@
+# 1. Byte-compiled / Optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 2. Virtual Environments (Where your libraries live)
+# It is heavy and unnecessary to upload these
+.venv/
+venv/
+env/
+ENV/
+
+# 3. Streamlit & Codespaces Secrets (CRITICAL SECURITY)
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# 4. OS-specific junk (The hidden files your computer makes)
+.DS_Store
+Thumbs.db
